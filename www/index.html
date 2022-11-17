@@ -13,10 +13,7 @@
     var ncmb = new NCMB(appKey, clientKey);
     // 利用するデータベースを指定（存在しなければ生成）
     var TestClass = ncmb.DataStore("FetchTest");
-    TestClass.fetch()
-    .then(function(results){
-        var data = results.get("text");
-    }
+    
 
     function register() {
       // 登録するレコードを用意
